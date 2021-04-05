@@ -24,7 +24,7 @@ Her şeyden önce bilgisayarınızda nodejs ve haliyle npm kurulu olmalıdır. T
 
 Dosyaları ilk kopyalamanızın ardından, terminalden ilgili dizinin içine gelip sırasıyla ```npm install``` ve tamamlandıktan sonra ```bower install``` komutlarını çalıştırmalısınız.
 
-Bunların tamamlanmasının ardından aynı dizin içerisindeyken ```gulp``` komutunu çalıştırarak geliştirme dizini içindeki dosyaların, gulp tarafından işlenip, yayına atılacak tüm dosyaların bulunacağı ```/public``` dizini içerisine kaydedilir. ```/public/assets``` dizini içine css ve js dosyaları, direkt ```/public``` dizinine de html dosyaları gelecek şekilde kopyalanacaktır. Bu komutla birlikte, terminali kapatmadığınız sürece, ```/dev``` geliştirme dizinindeki değişiklikleir takip eder hale gelirsiniz. Herhangi bir değişiklik uyguladığınızda gulp, gereken görevleri çalıştırır ve ilgili dosyaları günceller.
+Bunların tamamlanmasının ardından aynı dizin içerisindeyken ```gulp``` komutunu çalıştırarak geliştirme dizini içindeki dosyaların, gulp tarafından işlenip, yayına atılacak tüm dosyaların bulunacağı ```/public``` dizini içerisine kaydedilir. ```/public/assets``` dizini içine css ve js dosyaları, direkt ```/public``` dizinine de html dosyaları gelecek şekilde kopyalanacaktır. Bu komutla birlikte, terminali kapatmadığınız sürece, ```/dev``` geliştirme dizinindeki değişiklikleri takip eder hale gelirsiniz. Herhangi bir değişiklik uyguladığınızda gulp, gereken görevleri çalıştırır ve ilgili dosyaları günceller.
 
 ## Ne nerede?
 Geliştirme yaparken kullanacağımız temel yapı ```/dev``` dizini içerisinde. Daha detaylı bir açıklama yapılabilir ancak içindeki klasörler ve örnek dosyalar açıklayıcı olacaktır.
